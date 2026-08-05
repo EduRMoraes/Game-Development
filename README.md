@@ -19,13 +19,3 @@ Este espaço serve como repositório de códigos, protótipos e implementações
 - 🕹️ **Mecânicas Práticas**: Protótipos de movimentação de personagens, sistemas de câmera e física aplicada.
 
 ---
-
-## 📂 Estrutura do Repositório
-
-```text
-📁 Unity-GameDev-Lab/
-│
-├── 📁 Mechanics_Lab/       # Experimentos isolados em C# (Vetores, Física e Cinemática)
-├── 📁 Prototypes/          # Protótipos jogáveis completos e minijogos
-├── 📁 System_Architectures/ # Padrões de código, ScriptableObjects e gerenciadores
-└── 📄 README.md            # Apresentação do repositório
