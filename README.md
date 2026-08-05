@@ -1,30 +1,31 @@
-# 🎮 Game Development Journey & Study Lab
+# 🎮 Unity & C# Game Development Lab
 
-![Language](https://img.shields.io/badge/Language-C%23%20%2F%20C%2B%2B-blue)
-![Engine](https://img.shields.io/badge/Engine-Unity%20%2F%20Unreal-informational)
+![Engine](https://img.shields.io/badge/Engine-Unity-blue)
+![Language](https://img.shields.io/badge/Language-C%23-green)
 ![Focus](https://img.shields.io/badge/Focus-Physics%2C%20Math%20%26%20Kinematics-orange)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-brightgreen)
 
-Bem-vindo ao meu repositório dedicado ao estudo, experimentação e desenvolvimento de jogos! Este espaço funciona como meu laboratório prático para aplicar conceitos avançados de **Engenharia de Software**, **Física/Cinemática**, **Vetores** e **Arquitetura de Jogos**.
+Laboratório de estudos, experimentos e desenvolvimento de jogos focados na **Unity Engine** utilizando **C#**. 
+
+Este espaço serve como repositório de códigos, protótipos e implementações práticas de **matemática vetorial**, **física/cinemática de corpos** e **arquitetura de scripts**.
 
 ---
 
-## 🎯 Objetivos do Repositório
+## 🎯 Foco dos Estudos
 
-- 🔬 **Física e Cinemática**: Aplicação prática de equações de movimento, aceleração, trajetória e mecânicas de colisão personalizadas.
-- 📐 **Matemática Vetorial & Geometria**: Implementação de operações com vetores em 2D/3D, produtos escalares/vetoriais e transformação de coordenadas.
-- 🏗️ **Arquitetura e Clean Code**: Estruturação de componentes reutilizáveis, gerenciamento de estados e otimização de performance.
-- 🕹️ **Protótipos Rápidos**: Criação de pequenas mecânicas (*Game Dev Labs*) e jogos completos estilo Game Jam.
+- 📐 **Matemática & Vetores (C#)**: Operações com `Vector2` e `Vector3`, vetores unitários, `Dot Product` e cálculo de distâncias/ângulos.
+- 🔬 **Física & Cinemática**: Simulações de trajetória, aceleração, forças, controle de partículas e colisões.
+- 🏗️ **Arquitetura C# na Unity**: Uso de *ScriptableObjects*, padrões de design (*Design Patterns*), controle de estados e boas práticas em `MonoBehaviour`.
+- 🕹️ **Mecânicas Práticas**: Protótipos de movimentação de personagens, sistemas de câmera e física aplicada.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
 ```text
-📁 GameDev-Lab/
+📁 Unity-GameDev-Lab/
 │
-├── 📁 Mechanics_Lab/       # Experimentos de física, movimentação de partículas e vetores
-├── 📁 Prototypes/          # Protótipos funcionais e jogos curtos
-├── 📁 Assets_and_Shaders/   # Testes de iluminação, efeitos visuais e shaders
-├── 📁 Documentation/       # Anotações teóricas, mapas mentais e estudos de matemática
+├── 📁 Mechanics_Lab/       # Experimentos isolados em C# (Vetores, Física e Cinemática)
+├── 📁 Prototypes/          # Protótipos jogáveis completos e minijogos
+├── 📁 System_Architectures/ # Padrões de código, ScriptableObjects e gerenciadores
 └── 📄 README.md            # Apresentação do repositório
