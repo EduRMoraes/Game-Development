@@ -11,7 +11,7 @@ Este repositório consolida implementações práticas de **inteligência artifi
 
 ---
 
-## 🚀 Competências Técnicas & Conceitos Implementados
+## Competências Técnicas & Conceitos Implementados
 
 ### 🧠 1. Inteligência Artificial & Máquinas de Estado (FSM)
 - **Finite State Machine (FSM)**: Transições limpas entre estados de patrulha (`Patrol`) e perseguição (`Chase`).
