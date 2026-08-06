@@ -39,5 +39,6 @@ Este repositório consolida implementações práticas de **inteligência artifi
 ├── 📁 Core_Systems/        # Sistemas genéricos (Health, Damage Systems, Event Managers)
 ├── 📁 Player_Controllers/  # Controllers avançados de movimentação, pulo e combate
 ├── 📁 AI_Behaviors/        # Máquinas de estado, detecção e comportamento de inimigos
-├── 📁 Mechanics_Lab/       # Experimentos isolados de física e matemática vetorial
+├── 📁 Mechanics_Lab/       # Experimentos isolados de física e matemática vetorial 
+├── 🧠 Central de Aprendizados      
 └── 📄 README.md            # Apresentação do repositório
