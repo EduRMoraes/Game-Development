@@ -13,17 +13,17 @@ Este repositório consolida implementações práticas de **inteligência artifi
 
 ## Competências Técnicas & Conceitos Implementados
 
-### 🧠 1. Inteligência Artificial & Máquinas de Estado (FSM)
+### 1. Inteligência Artificial & Máquinas de Estado (FSM)
 - **Finite State Machine (FSM)**: Transições limpas entre estados de patrulha (`Patrol`) e perseguição (`Chase`).
 - **Lógica de Detecção**: Transição dinâmica baseada em raio de busca e distância vetorial (`Vector2.Distance`).
 - **Debugging Visual**: Uso de `OnDrawGizmosSelected` para renderizar zonas de detecção, pontos de patrulha e conexões no *Scene View*.
 
-### ⚔️ 2. Arquitetura de Combate & Sistema de Vida
+### 2. Arquitetura de Combate & Sistema de Vida
 - **Event-Driven Architecture (C# Events)**: Desacoplamento entre lógica de dados e interface (UI/HUD) usando `Action<int, int>` e `Action`.
 - **Overlap Circle Queries**: Detecção precisa de colisão para ataques em área usando `Physics2D.OverlapCircleAll` e `LayerMask`.
 - **Mecanismos de Reutilização**: Script de `Health` modular e independente, aplicável tanto a jogadores quanto a inimigos.
 
-### 🏃 3. Advanced Movement & Gameplay Feel ("Juice")
+### 3. Advanced Movement & Gameplay Feel ("Juice")
 - **Coyote Time**: Permite que o jogador pule alguns milissegundos após sair de uma plataforma, melhorando a responsividade.
 - **Jump Buffer**: Armazena a intenção de pulo antes do personagem tocar o chão.
 - **Variable Jump Height**: Altura do pulo proporcional ao tempo em que o botão permanece pressionado (`jumpCutMultiplier`).
